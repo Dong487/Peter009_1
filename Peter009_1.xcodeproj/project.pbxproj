@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F502458D286B491400A83B51 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F502458C286B491400A83B51 /* HomeView.swift */; };
 		F52456DA28699ED00071FDE5 /* Peter009_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52456D928699ED00071FDE5 /* Peter009_1App.swift */; };
-		F52456DC28699ED00071FDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52456DB28699ED00071FDE5 /* ContentView.swift */; };
 		F52456DE28699ED20071FDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52456DD28699ED20071FDE5 /* Assets.xcassets */; };
 		F52456E128699ED20071FDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52456E028699ED20071FDE5 /* Preview Assets.xcassets */; };
 		F52456EB28699ED30071FDE5 /* Peter009_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52456EA28699ED30071FDE5 /* Peter009_1Tests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F502458C286B491400A83B51 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F52456D628699ED00071FDE5 /* Peter009_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peter009_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52456D928699ED00071FDE5 /* Peter009_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter009_1App.swift; sourceTree = "<group>"; };
-		F52456DB28699ED00071FDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F52456DD28699ED20071FDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F52456E028699ED20071FDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F52456E628699ED30071FDE5 /* Peter009_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Peter009_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				F52456D928699ED00071FDE5 /* Peter009_1App.swift */,
-				F52456DB28699ED00071FDE5 /* ContentView.swift */,
+				F502458C286B491400A83B51 /* HomeView.swift */,
 				F52456DD28699ED20071FDE5 /* Assets.xcassets */,
 				F52456DF28699ED20071FDE5 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F52456DC28699ED00071FDE5 /* ContentView.swift in Sources */,
+				F502458D286B491400A83B51 /* HomeView.swift in Sources */,
 				F52456DA28699ED00071FDE5 /* Peter009_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
